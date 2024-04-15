@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1713212536424' stop='1713212536432'>
+    <name>calculateTotal function</name>
+    <title>calculateTotal function</title>
+    <test-cases>
+        <test-case start='1713212536424' status='passed' stop='1713212536428'>
+            <name>{
+              name: 'case 1: valid discount',
+              products: [Array],
+              discount: 10,
+              expected: [Object]
+            }</name>
+            <title>{
+              name: 'case 1: valid discount',
+              products: [Array],
+              discount: 10,
+              expected: [Object]
+            }</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1713212536428' status='passed' stop='1713212536428'>
+            <name>{
+              name: 'case 2: discount is 0',
+              products: [Array],
+              discount: 0,
+              expected: [Object]
+            }</name>
+            <title>{
+              name: 'case 2: discount is 0',
+              products: [Array],
+              discount: 0,
+              expected: [Object]
+            }</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1713212536429' status='passed' stop='1713212536432'>
+            <name>{
+              name: 'case 3: invalid negative discount',
+              products: [Array],
+              discount: -10,
+              expectedError: 'Скидка не может быть отрицательным числом.'
+            }</name>
+            <title>{
+              name: 'case 3: invalid negative discount',
+              products: [Array],
+              discount: -10,
+              expectedError: 'Скидка не может быть отрицательным числом.'
+            }</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1713212536432' status='passed' stop='1713212536432'>
+            <name>{
+              name: 'case 4: invalid discount over 100%',
+              products: [Array],
+              discount: 110,
+              expectedError: 'Скидка не может быть больше 100%.'
+            }</name>
+            <title>{
+              name: 'case 4: invalid discount over 100%',
+              products: [Array],
+              discount: 110,
+              expectedError: 'Скидка не может быть больше 100%.'
+            }</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

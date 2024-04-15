@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1713210693471' stop='1713210693475'>
+    <name>Получение информации о пользователе</name>
+    <title>Получение информации о пользователе</title>
+    <test-cases>
+        <test-case start='1713210693471' status='failed' stop='1713210693473'>
+            <name>Генерация токена</name>
+            <title>Генерация токена</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: getaddrinfo ENOTFOUND bookstore.demoqa.comaccount</message>
+                <stack-trace>Error: getaddrinfo ENOTFOUND bookstore.demoqa.comaccount
+                    at Function.Object.&lt;anonymous>.AxiosError.from (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\axios\lib\core\AxiosError.js:89:14)
+                    at RedirectableRequest.handleRequestError (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\axios\lib\adapters\http.js:610:25)
+                    at RedirectableRequest.emit (node:events:513:28)
+                    at ClientRequest.eventHandlers.&lt;computed> (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\follow-redirects\index.js:38:24)
+                    at ClientRequest.emit (node:events:513:28)
+                    at TLSSocket.socketErrorListener (node:_http_client:502:9)
+                    at TLSSocket.emit (node:events:513:28)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+                    at Axios.request (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\axios\lib\core\Axios.js:45:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\HomeWork\lesson_8\pageobjects\UserService.js:46:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\HomeWork\lesson_8\spec\lesson8.spec.js:27:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1713210693473' status='failed' stop='1713210693475'>
+            <name>Получаем данные существующего пользователя</name>
+            <title>Получаем данные существующего пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: getaddrinfo ENOTFOUND bookstore.demoqa.comaccount</message>
+                <stack-trace>Error: getaddrinfo ENOTFOUND bookstore.demoqa.comaccount
+                    at Function.Object.&lt;anonymous>.AxiosError.from (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\axios\lib\core\AxiosError.js:89:14)
+                    at RedirectableRequest.handleRequestError (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\axios\lib\adapters\http.js:610:25)
+                    at RedirectableRequest.emit (node:events:513:28)
+                    at ClientRequest.eventHandlers.&lt;computed> (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\follow-redirects\index.js:38:24)
+                    at ClientRequest.emit (node:events:513:28)
+                    at TLSSocket.socketErrorListener (node:_http_client:502:9)
+                    at TLSSocket.emit (node:events:513:28)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+                    at Axios.request (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\axios\lib\core\Axios.js:45:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.getUser [as get] (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\HomeWork\lesson_8\pageobjects\UserService.js:5:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\HomeWork\lesson_8\spec\lesson8.spec.js:35:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

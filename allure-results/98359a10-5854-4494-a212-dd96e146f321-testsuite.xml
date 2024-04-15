@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1713212522258' stop='1713212522280'>
+    <name>Books</name>
+    <title>Books</title>
+    <test-cases>
+        <test-case start='1713212522270' status='failed' stop='1713212522274'>
+            <name>Список книг</name>
+            <title>Список книг</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken</message>
+                <stack-trace>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken
+                    at Object.fetch (node:internal/deps/undici/undici:14152:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\HW-8\Otus_HW\framework\services\AuthService.js:4:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\HW-8\Otus_HW\tests\books.test.js:18:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1713212522274' status='failed' stop='1713212522276'>
+            <name>Удаление всех книг из коллекции пользователя</name>
+            <title>Удаление всех книг из коллекции пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken</message>
+                <stack-trace>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken
+                    at Object.fetch (node:internal/deps/undici/undici:14152:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\HW-8\Otus_HW\framework\services\AuthService.js:4:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\HW-8\Otus_HW\tests\books.test.js:18:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1713212522276' status='failed' stop='1713212522276'>
+            <name>Добавление книги в коллекцию к пользователю</name>
+            <title>Добавление книги в коллекцию к пользователю</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken</message>
+                <stack-trace>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken
+                    at Object.fetch (node:internal/deps/undici/undici:14152:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\HW-8\Otus_HW\framework\services\AuthService.js:4:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\HW-8\Otus_HW\tests\books.test.js:18:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1713212522279' status='failed' stop='1713212522280'>
+            <name>Заменить книгу в коллекции пользователя</name>
+            <title>Заменить книгу в коллекции пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken</message>
+                <stack-trace>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken
+                    at Object.fetch (node:internal/deps/undici/undici:14152:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\HW-8\Otus_HW\framework\services\AuthService.js:4:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\HW-8\Otus_HW\tests\books.test.js:18:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

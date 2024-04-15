@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1713210881105' stop='1713210881107'>
+    <name>Удаление пользователя</name>
+    <title>Удаление пользователя</title>
+    <test-cases>
+        <test-case start='1713210881105' status='failed' stop='1713210881107'>
+            <name>Удаление существующего пользователя</name>
+            <title>Удаление существующего пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: getaddrinfo ENOTFOUND bookstore.demoqa.comaccount</message>
+                <stack-trace>Error: getaddrinfo ENOTFOUND bookstore.demoqa.comaccount
+                    at Function.Object.&lt;anonymous>.AxiosError.from (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\axios\lib\core\AxiosError.js:89:14)
+                    at RedirectableRequest.handleRequestError (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\axios\lib\adapters\http.js:610:25)
+                    at RedirectableRequest.emit (node:events:513:28)
+                    at ClientRequest.eventHandlers.&lt;computed> (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\follow-redirects\index.js:38:24)
+                    at ClientRequest.emit (node:events:513:28)
+                    at TLSSocket.socketErrorListener (node:_http_client:502:9)
+                    at TLSSocket.emit (node:events:513:28)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+                    at Axios.request (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\node_modules\axios\lib\core\Axios.js:45:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.removeUser [as remove] (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\HomeWork\lesson_8\pageobjects\UserService.js:32:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\HomeWork\lesson_8\spec\lesson8.spec.js:44:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

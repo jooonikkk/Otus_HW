@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1713212519623' stop='1713212519632'>
+    <name>Test full trim</name>
+    <title>Test full trim</title>
+    <test-cases>
+        <test-case start='1713212519623' status='passed' stop='1713212519624'>
+            <name>case 1: removing spaces from text</name>
+            <title>case 1: removing spaces from text</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1713212519624' status='passed' stop='1713212519630'>
+            <name>case 2: removing spaces from empty</name>
+            <title>case 2: removing spaces from empty</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1713212519631' status='passed' stop='1713212519632'>
+            <name>case 3: removing spaces from undefined</name>
+            <title>case 3: removing spaces from undefined</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
