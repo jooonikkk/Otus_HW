@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1713211060160' stop='1713211060548'>
+    <name>Удаление пользователя</name>
+    <title>Удаление пользователя</title>
+    <test-cases>
+        <test-case start='1713211060160' status='failed' stop='1713211060548'>
+            <name>Удаление существующего пользователя</name>
+            <title>Удаление существующего пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 204
+                Received: 200</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 204
+                Received: 200
+                    at Object.toEqual (C:\Users\user\Desktop\HW-8\Lessons-testing_library_5\HomeWork\lesson_8\spec\lesson8.spec.js:45:34)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

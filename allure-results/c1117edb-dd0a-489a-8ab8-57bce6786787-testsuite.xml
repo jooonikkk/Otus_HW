@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1713212522258' stop='1713212522342'>
+    <name>Users</name>
+    <title>Users</title>
+    <test-cases>
+        <test-case start='1713212522260' status='failed' stop='1713212522333'>
+            <name>Авторизован ли пользователь?</name>
+            <title>Авторизован ли пользователь?</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: connect ECONNREFUSED ::1:80</message>
+                <stack-trace>Error: connect ECONNREFUSED ::1:80
+                    at Function.Object.&lt;anonymous>.AxiosError.from (C:\Users\user\Desktop\HW-8\Otus_HW\node_modules\axios\lib\core\AxiosError.js:89:14)
+                    at RedirectableRequest.handleRequestError (C:\Users\user\Desktop\HW-8\Otus_HW\node_modules\axios\lib\adapters\http.js:610:25)
+                    at RedirectableRequest.emit (node:events:513:28)
+                    at ClientRequest.eventHandlers.&lt;computed> (C:\Users\user\Desktop\HW-8\Otus_HW\node_modules\follow-redirects\index.js:38:24)
+                    at ClientRequest.emit (node:events:513:28)
+                    at Socket.socketErrorListener (node:_http_client:502:9)
+                    at Socket.emit (node:events:513:28)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+                    at Axios.request (C:\Users\user\Desktop\HW-8\Otus_HW\node_modules\axios\lib\core\Axios.js:45:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.createUser [as create] (C:\Users\user\Desktop\HW-8\Otus_HW\framework\services\UserService.js:18:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\HW-8\Otus_HW\tests\users.test.js:13:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1713212522334' status='failed' stop='1713212522341'>
+            <name>Удаление юзера</name>
+            <title>Удаление юзера</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: connect ECONNREFUSED ::1:80</message>
+                <stack-trace>Error: connect ECONNREFUSED ::1:80
+                    at Function.Object.&lt;anonymous>.AxiosError.from (C:\Users\user\Desktop\HW-8\Otus_HW\node_modules\axios\lib\core\AxiosError.js:89:14)
+                    at RedirectableRequest.handleRequestError (C:\Users\user\Desktop\HW-8\Otus_HW\node_modules\axios\lib\adapters\http.js:610:25)
+                    at RedirectableRequest.emit (node:events:513:28)
+                    at ClientRequest.eventHandlers.&lt;computed> (C:\Users\user\Desktop\HW-8\Otus_HW\node_modules\follow-redirects\index.js:38:24)
+                    at ClientRequest.emit (node:events:513:28)
+                    at Socket.socketErrorListener (node:_http_client:502:9)
+                    at Socket.emit (node:events:513:28)
+                    at emitErrorNT (node:internal/streams/destroy:151:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+                    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+                    at Axios.request (C:\Users\user\Desktop\HW-8\Otus_HW\node_modules\axios\lib\core\Axios.js:45:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.removeUser [as remove] (C:\Users\user\Desktop\HW-8\Otus_HW\framework\services\UserService.js:31:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\HW-8\Otus_HW\tests\users.test.js:29:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

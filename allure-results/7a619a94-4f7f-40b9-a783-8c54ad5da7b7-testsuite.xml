@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1713212286613' stop='1713212286621'>
+    <name>kolobok function</name>
+    <title>kolobok function</title>
+    <test-cases>
+        <test-case start='1713212286614' status='passed' stop='1713212286617'>
+            <name>should return the correct response for дедушка</name>
+            <title>should return the correct response for дедушка</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1713212286617' status='passed' stop='1713212286618'>
+            <name>should return the correct response for заяц</name>
+            <title>should return the correct response for заяц</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1713212286618' status='passed' stop='1713212286618'>
+            <name>should return the correct response for лиса</name>
+            <title>should return the correct response for лиса</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1713212286618' status='passed' stop='1713212286621'>
+            <name>should throw error for unknown character</name>
+            <title>should throw error for unknown character</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
