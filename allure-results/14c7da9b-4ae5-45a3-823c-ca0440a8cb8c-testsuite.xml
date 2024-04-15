@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1713214082510' stop='1713214083388'>
+    <name>Получение информации о пользователе</name>
+    <title>Получение информации о пользователе</title>
+    <test-cases>
+        <test-case start='1713214082510' status='passed' stop='1713214083116'>
+            <name>Генерация токена</name>
+            <title>Генерация токена</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1713214083116' status='passed' stop='1713214083388'>
+            <name>Получаем данные существующего пользователя</name>
+            <title>Получаем данные существующего пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
