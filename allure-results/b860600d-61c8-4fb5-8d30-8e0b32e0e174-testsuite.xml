@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714384635980' stop='1714384635989'>
+    <name>Test name user</name>
+    <title>Test name user</title>
+    <test-cases>
+        <test-case start='1714384635981' status='passed' stop='1714384635985'>
+            <name>case 1: successful check</name>
+            <title>case 1: successful check</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384635985' status='passed' stop='1714384635986'>
+            <name>case 2: empty value</name>
+            <title>case 2: empty value</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384635986' status='passed' stop='1714384635987'>
+            <name>case 3: not many letters</name>
+            <title>case 3: not many letters</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384635987' status='passed' stop='1714384635988'>
+            <name>case 4: enter numbers</name>
+            <title>case 4: enter numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384635988' status='passed' stop='1714384635989'>
+            <name>case 5: big letters</name>
+            <title>case 5: big letters</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

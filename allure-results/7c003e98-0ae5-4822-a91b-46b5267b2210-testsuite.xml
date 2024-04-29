@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714384640096' stop='1714384640320'>
+    <name>Получаем список книг, чтобы взять ISBN</name>
+    <title>Получаем список книг, чтобы взять ISBN</title>
+    <test-cases>
+        <test-case start='1714384640096' status='passed' stop='1714384640320'>
+            <name>Получение списка книг и фиксация нужных ISBN</name>
+            <title>Получение списка книг и фиксация нужных ISBN</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

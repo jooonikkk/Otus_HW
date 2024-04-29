@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714384636003' stop='1714384636011'>
+    <name>test getTotal</name>
+    <title>test getTotal</title>
+    <test-cases>
+        <test-case start='1714384636003' status='passed' stop='1714384636004'>
+            <name>case 1: valid discount</name>
+            <title>case 1: valid discount</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384636005' status='passed' stop='1714384636005'>
+            <name>case 2: discount is 0</name>
+            <title>case 2: discount is 0</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384636005' status='passed' stop='1714384636009'>
+            <name>case 3: discount less than zero</name>
+            <title>case 3: discount less than zero</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384636009' status='passed' stop='1714384636010'>
+            <name>case 4: invalid discount over 100%</name>
+            <title>case 4: invalid discount over 100%</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384636010' status='passed' stop='1714384636010'>
+            <name>case 5: invalid discount not a number</name>
+            <title>case 5: invalid discount not a number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
