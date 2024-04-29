@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714383913962' stop='1714383915535'>
+    <name>Авторизация</name>
+    <title>Авторизация</title>
+    <test-cases>
+        <test-case start='1714383913962' status='passed' stop='1714383914542'>
+            <name>Создание пользователя</name>
+            <title>Создание пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714383914542' status='passed' stop='1714383914905'>
+            <name>Авторизация под созданным пользователем</name>
+            <title>Авторизация под созданным пользователем</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714383914905' status='passed' stop='1714383915535'>
+            <name>Генерация токена</name>
+            <title>Генерация токена</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

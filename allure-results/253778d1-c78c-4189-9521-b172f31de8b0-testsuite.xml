@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714384636177' stop='1714384636180'>
+    <name>greet function</name>
+    <title>greet function</title>
+    <test-cases>
+        <test-case start='1714384636178' status='passed' stop='1714384636179'>
+            <name>should return a greeting message with the given name</name>
+            <title>should return a greeting message with the given name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384636179' status='passed' stop='1714384636180'>
+            <name>should handle empty name gracefully</name>
+            <title>should handle empty name gracefully</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

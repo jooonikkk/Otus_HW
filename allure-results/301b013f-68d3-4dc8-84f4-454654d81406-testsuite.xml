@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714384692436' stop='1714384692458'>
+    <name>Books</name>
+    <title>Books</title>
+    <test-cases>
+        <test-case start='1714384692447' status='failed' stop='1714384692451'>
+            <name>Список книг</name>
+            <title>Список книг</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken</message>
+                <stack-trace>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken
+                    at Object.fetch (node:internal/deps/undici/undici:14152:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\lesson_9\Otus_HW\framework\services\AuthService.js:4:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\lesson_9\Otus_HW\tests\books.test.js:18:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1714384692451' status='failed' stop='1714384692456'>
+            <name>Удаление всех книг из коллекции пользователя</name>
+            <title>Удаление всех книг из коллекции пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken</message>
+                <stack-trace>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken
+                    at Object.fetch (node:internal/deps/undici/undici:14152:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\lesson_9\Otus_HW\framework\services\AuthService.js:4:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\lesson_9\Otus_HW\tests\books.test.js:18:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1714384692456' status='failed' stop='1714384692457'>
+            <name>Добавление книги в коллекцию к пользователю</name>
+            <title>Добавление книги в коллекцию к пользователю</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken</message>
+                <stack-trace>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken
+                    at Object.fetch (node:internal/deps/undici/undici:14152:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\lesson_9\Otus_HW\framework\services\AuthService.js:4:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\lesson_9\Otus_HW\tests\books.test.js:18:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1714384692457' status='failed' stop='1714384692458'>
+            <name>Заменить книгу в коллекции пользователя</name>
+            <title>Заменить книгу в коллекции пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken</message>
+                <stack-trace>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken
+                    at Object.fetch (node:internal/deps/undici/undici:14152:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\lesson_9\Otus_HW\framework\services\AuthService.js:4:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\lesson_9\Otus_HW\tests\books.test.js:18:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714384641277' stop='1714384641671'>
+    <name>Удаление привязки книги к пользователю</name>
+    <title>Удаление привязки книги к пользователю</title>
+    <test-cases>
+        <test-case start='1714384641277' status='passed' stop='1714384641671'>
+            <name>Отвязали книгу от пользователя</name>
+            <title>Отвязали книгу от пользователя</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714384689698' stop='1714384689701'>
+    <name>newYear function</name>
+    <title>newYear function</title>
+    <test-cases>
+        <test-case start='1714384689698' status='passed' stop='1714384689700'>
+            <name>should return the correct response for Дед Мороз</name>
+            <title>should return the correct response for Дед Мороз</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384689700' status='passed' stop='1714384689700'>
+            <name>should return the correct response for Снегурочка</name>
+            <title>should return the correct response for Снегурочка</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1714384689700' status='passed' stop='1714384689701'>
+            <name>should return a default response for unknown character</name>
+            <title>should return a default response for unknown character</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

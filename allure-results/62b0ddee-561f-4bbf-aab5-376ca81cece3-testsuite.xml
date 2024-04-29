@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714384689751' stop='1714384689799'>
+    <name>Авторизация</name>
+    <title>Авторизация</title>
+    <test-cases>
+        <test-case start='1714384689751' status='failed' stop='1714384689798'>
+            <name>Успешная авторизация</name>
+            <title>Успешная авторизация</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken</message>
+                <stack-trace>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken
+                    at Object.fetch (node:internal/deps/undici/undici:14152:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\lesson_9\Otus_HW\framework\services\AuthService.js:4:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\lesson_9\Otus_HW\tests\auth.test.js:6:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1714384689798' status='failed' stop='1714384689799'>
+            <name>Нельзя авторизоваться без пароля</name>
+            <title>Нельзя авторизоваться без пароля</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken</message>
+                <stack-trace>TypeError: Failed to parse URL from undefined/Account/v1/GenerateToken
+                    at Object.fetch (node:internal/deps/undici/undici:14152:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Object.generateToken (C:\Users\user\Desktop\lesson_9\Otus_HW\framework\services\AuthService.js:4:20)
+                    at Object.&lt;anonymous> (C:\Users\user\Desktop\lesson_9\Otus_HW\tests\auth.test.js:16:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

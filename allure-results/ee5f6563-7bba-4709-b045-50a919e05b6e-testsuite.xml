@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1714384640322' stop='1714384640612'>
+    <name>Создание привязки книги к пользователю</name>
+    <title>Создание привязки книги к пользователю</title>
+    <test-cases>
+        <test-case start='1714384640322' status='passed' stop='1714384640612'>
+            <name>Привязываем книгу к пользоватею</name>
+            <title>Привязываем книгу к пользоватею</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
